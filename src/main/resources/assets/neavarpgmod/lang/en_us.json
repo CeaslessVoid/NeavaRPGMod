@@ -1,1 +1,5 @@
-{}
+{
+  "attribute.neavarpgmod.dexterity": "Dexterity",
+  "attribute.neavarpgmod.intelligence": "Intelligence",
+  "attribute.neavarpgmod.strength": "Strength"
+}

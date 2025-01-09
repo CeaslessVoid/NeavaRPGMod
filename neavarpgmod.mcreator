@@ -1,15 +1,43 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "code",
+      "name": "Strength",
+      "type": "attribute",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "test",
+      "locked_code": false,
+      "registry_name": "strength",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/neavarpgmod/Test.java"
-        ]
+        "files": []
+      }
+    },
+    {
+      "name": "Dexterity",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexterity",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Intelligence",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intelligence",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Fortitude",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fortitude",
+      "metadata": {
+        "files": []
       }
     }
   ],
@@ -18,7 +46,12 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "attribute.neavarpgmod.fortitude": "Fortitude",
+      "attribute.neavarpgmod.dexterity": "Dexterity",
+      "attribute.neavarpgmod.intelligence": "Intelligence",
+      "attribute.neavarpgmod.strength": "Strength"
+    }
   },
   "foldersRoot": {
     "name": "~",
